@@ -1,1 +1,104 @@
 
+// .klor{
+//     border:1px solid white;
+//     width: 280px;
+//     height: 280px;
+//     margin-top: 200px;
+//     margin-left: 100px;
+//     border-radius: 180px;
+// }
+// body{
+//     background-color:black;
+// }
+// .bajanum1{
+//     color:white;
+// }
+
+.main{
+    width: 100%;
+    height: 100%;
+   
+}
+.block{
+    width: 100%;
+    height: calc(100% /20);
+    display: flex;
+}
+.item{
+    box-sizing: border-box;
+    width: calc(100% /10);
+    height: 100%;
+    border: 1px solid #e9fe06;
+    margin: 1px;
+    box-shadow: 1px 1px 50px #e9fe06;
+    animation-name: coloring;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+// .item:hover{
+//     background:rgb(43, 13, 13);
+//     box-shadow: 10px 10px 40px white;
+//     filter: blur(1px);
+
+// }
+
+// document.overlay = GPolyline.fromEncoded({
+//     color: "#0000FF",
+//     weight: 10,
+//     points: encoded_points,
+//     zoomFactor: 32,
+//     levels: encoded_levels,
+//     numLevels: 4
+// });
+
+@keyframes coloring {
+   0%{
+    border: 1px solid #ff3e3e;
+    box-shadow: 1px 1px 10px #ff3e3e;
+   } 
+   10%{
+    border: 1px solid #ff5900;
+    box-shadow: 1px 1px 10px #ff5900;
+   } 
+   20%{
+    border: 1px solid #ffe23e;
+    box-shadow: 1px 1px 10px #ffe23e;
+   } 
+   30%{
+    border: 1px solid #c5ff3e;
+    box-shadow: 1px 1px 10px #c5ff3e;
+   } 
+   40%{
+    border: 1px solid #3eff75;
+    box-shadow: 1px 1px 10px #3eff75;
+   } 
+   50%{
+    border: 1px solid #3ed2ff;
+    box-shadow: 1px 1px 10px #3ed2ff;
+   } 
+   60%{
+    border: 1px solid #6e3eff;
+    box-shadow: 1px 1px 10px #6e3eff;
+   } 
+   70%{
+    border: 1px solid #cf3eff;
+    box-shadow: 1px 1px 10px #cf3eff;
+   } 
+   80%{
+    border: 1px solid #ff2696;
+    box-shadow: 1px 1px 10px #ff2696;
+   } 
+   90%{
+    border: 1px solid #ee4c72;
+    box-shadow: 1px 1px 10px #ee4c72;
+   } 
+   100%{
+    border: 1px solid #ff3e3e;
+    box-shadow: 1px 1px 10px #ff3e3e;
+   } 
+
+
+  
+
+}
